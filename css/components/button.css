@@ -1,0 +1,22 @@
+.btn-header {
+  padding: 10px 60px;
+  border-radius: 4px;
+  border-top-right-radius: 80px 80px;
+  border-bottom-left-radius: 80px 80px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.9);
+  background-color: #913175;
+  color: #CD5888;
+  font-weight: bold;
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.btn-header:hover {
+  border-radius: 4px;
+  border-top-left-radius: 80px 80px;
+  border-bottom-right-radius: 80px 80px;
+  box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+  background-color: #CD5888;
+  color: #913175;
+  transition: all ease 0.5s;
+}
